@@ -1,5 +1,4 @@
 import os
-os.system('color 0A')
 os.system('cls||clear')
 try:
 	import requests,random,threading
