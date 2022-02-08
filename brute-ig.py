@@ -215,7 +215,7 @@ def start():
 	mode = input("""
 +------------------------------------------+
 |          Brute Force instagram           |
-|        https://sajjad2s.github.io        |
+|      https://github.com/sadeghi2s        |
 +------------------------------------------+
 |                                          |
 |        [1] - hack from combo list        |
